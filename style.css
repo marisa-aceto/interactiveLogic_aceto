@@ -1,0 +1,66 @@
+#first {
+    height: 100vh;
+    background-image: url("images/brick.jpg");
+    background-position: center;
+    background-size: 75%;
+}
+
+#doors {
+    display: inline-flex;
+    position: fixed;
+    left: -5%;
+    top: 20%;
+    height: 600px;
+    width: 400px;
+
+}
+
+#door1 {
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+#door2 {
+    padding-left: 75px;
+    padding-right: 75px;}
+
+#door3 {
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+#door1:hover {
+    transform: scale(1.2);
+    border: 5px solid white;
+}
+
+#door2:hover {
+    transform: scale(1.2);
+    border: 5px solid white;
+}
+
+#door3:hover {
+    transform: scale(1.2);
+    border: 5px solid white;
+}
+
+#in1 {
+    display: flex;
+    height: 0px;
+    width: 0px;
+    font-size: 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#back1 {
+    display: flex;
+    height: 0px;
+    width: 0px;
+    font-size: 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+}
+
+
