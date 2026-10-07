@@ -8,6 +8,8 @@ let d2 = document.getElementById("door2");
 let d3 = document.getElementById("door3");
 let b1 = document.getElementById("in1");
 let b2 = document.getElementById("back1");
+let op1 = 1;
+let off;
 
 d1.addEventListener("click", function() {
     door1Clicked = true;
@@ -94,4 +96,12 @@ d3.addEventListener("click", function() {
         b2.style.fontSize = "0px";
     }
     });
+});
+
+window.addEventListener("mousemove", function(event) {
+    off = event.mouseX - (d2.getBoundingClientRect()).left;
+    if (off < 100) {
+        op1 --;
+    }
+    d2.style.opacity = op1;
 });

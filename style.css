@@ -5,6 +5,22 @@
     background-size: 75%;
 }
 
+#second {
+    height: 100vh;
+    background-color: aqua;
+    background-size: cover;
+}
+
+#third {
+    height: 100vh;
+    background-color: pink;
+}
+
+#fourth {
+    height: 100vh;
+    background-color: violet;
+}
+
 #doors {
     display: inline-flex;
     position: fixed;
