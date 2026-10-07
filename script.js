@@ -99,7 +99,7 @@ d3.addEventListener("click", function() {
 });
 
 window.addEventListener("mousemove", function(event) {
-    off = event.mouseX - (d2.getBoundingClientRect()).left;
+    off = event.mouseX;
     if (off < 100) {
         op1 --;
     }
