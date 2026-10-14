@@ -86,5 +86,11 @@
     color: blueviolet;
 }
 
+#goBack,
+#goBack2 {
+    height: 200px;
+    width: 200px;
+    font-size: 30px;
+}
 
 

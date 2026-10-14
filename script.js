@@ -82,7 +82,7 @@ d3.addEventListener("click", function() {
     b1.addEventListener("click", function() {
         b1Clicked = true;
     if ((b1Clicked == true) && (door3Clicked == true)) {
-        window.location.href = "index4.html";
+        window.location.href = "index2.html";
     }
     });
     b2.addEventListener("click", function() {
