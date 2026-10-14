@@ -13,6 +13,8 @@ let off;
 
 d1.addEventListener("click", function() {
     door1Clicked = true;
+    d3.style.border = "0px";
+    d2.style.border = "0px";
     d1.style.border = "5px solid white";
     b1.style.height = "50px";
     b1.style.width = "100px";
@@ -42,6 +44,8 @@ d1.addEventListener("click", function() {
 
 d2.addEventListener("click", function() {
     door2Clicked = true;
+    d1.style.border = "0px";
+    d3.style.border = "0px";
     d2.style.border = "5px solid white";
     b1.style.height = "50px";
     b1.style.width = "100px";
@@ -71,6 +75,8 @@ d2.addEventListener("click", function() {
 
 d3.addEventListener("click", function() {
     door3Clicked = true;
+    d1.style.border = "0px";
+    d2.style.border = "0px";
     d3.style.border = "5px solid white";
     b1.style.height = "50px";
     b1.style.width = "100px";
